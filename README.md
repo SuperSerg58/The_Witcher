@@ -1,0 +1,1 @@
+Create The Witcher HTML page. Frontend.
