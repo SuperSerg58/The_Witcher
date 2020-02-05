@@ -12,6 +12,13 @@ body {
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: top right 20%;
 }
 
 .container {
@@ -124,7 +131,9 @@ body {
 .series {
     display: flex;
     align-items: center;
-    margin-bottom: 123px;
+    margin-bottom: 60px;
+    position: relative;
+    max-width: 420px;
 }
 
 .card {
@@ -172,13 +181,35 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: -35px;
+}
+
+.swiper-container{
+    max-width: 420px;
+    margin-left: 0;
 }
 
 /*Footer*/
+.footer{
+    background-color: #141218;
+    padding: 20px 0;
+    margin-top: auto;
+}
 .footer-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
     line-height: 20px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #3A383D;
+}
+
+.copyright{
+    color: #3A383D;
 }
